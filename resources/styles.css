@@ -1,0 +1,161 @@
+/* GENERAL */
+
+html {
+    background-image: url('./main-background-4.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
+    font-family: 'Gaegu', sans-serif;
+} 
+
+body {
+    background-color: hsla(210, 68%, 57%, 0.43);
+    margin: 0;
+    padding: 30px 0; 
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Delius Unicase', sans-serif;
+    font-weight: bold; 
+    font-size: 2em; 
+}
+
+section {
+    margin: auto 80px; 
+}
+
+article {
+    margin: auto; 
+}
+
+div {
+    width: 200px;
+    margin: 20px auto; 
+    display: inline-block;
+    text-align: center;  
+}
+
+.categorias,
+.inscripciones,
+.contactos {
+    position: relative;
+    width:50%;
+    left: 43%; 
+}
+
+.section-headers {
+    display: block; 
+    margin: 50px auto; 
+    background-color: #9147dc;
+    text-align: center; 
+    width: 100%; 
+    box-shadow: 5px 3px 5px #404040;
+}
+
+.left-panel {
+    position: fixed; 
+    display: inline-block;
+    height: 45%;
+    right: 49%;
+}
+
+.right-panel{ 
+    display: block;
+    float: right;
+}
+
+/* LOGO OF EVENT */
+
+.stand-in {
+    position: relative;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    height: 65%; 
+    border-radius: 100%;
+    box-shadow: 10px 3px 5px #404040;
+}
+
+.test { 
+    position: relative;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 55%;
+    box-shadow: 10px 5px 5px #404040;
+}
+
+.sponsors {
+    background-color: white;
+    height: 15%;
+    width: 15%;
+    margin: 10px; 
+}
+
+/* CATEGORIAS */
+
+.categorias-main {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    margin: 20px auto;
+    height: 400px; 
+    width: 100%;
+}
+
+.surf {
+    background-image: url('./surfer-open.jpg');
+}
+
+.boogie {
+    background-image: url('./boogie-open.jpg');
+}
+
+.categorias-main div {
+    background-color: white;   
+    border-radius: 5%;
+    height: 30%;
+    width : 30%;
+    opacity: .5;
+    transition-duration: 450ms;
+    transition-property: opacity;
+    text-align: center;
+} 
+
+
+
+/* INSCRIPCIONES Y CONTACTOS */
+
+.ins,
+.con {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+    height: 100px; 
+    width: 75%;
+    text-align: center;
+}
+
+.ath-movil {
+    display: inline-block;
+    position: relative;
+    right: 7%;
+    top:32%; 
+    height: 40px;
+    opacity: 1; 
+}
+
+.ath-num {
+    position: relative;
+    top: 4%;
+    left: 5%;
+    width: 40%;
+    font-size: 1.4em;
+    opacity: 1;
+    transition: ease; 
+}
