@@ -31,7 +31,7 @@ article {
 }
 
 div {
-    width: 200px;
+    width: 11rem;
     margin: 20px auto; 
     display: inline-block;
     text-align: center;  
@@ -39,7 +39,8 @@ div {
 
 .categorias,
 .inscripciones,
-.contactos {
+.contactos,
+.atracciones {
     position: relative;
     width:50%;
     left: 43%; 
@@ -96,6 +97,32 @@ div {
     margin: 10px; 
 }
 
+/* ATRACCIONES */
+
+.atracciones-container {
+    background-image: url(./musica-comida.jpg);
+    height: 23rem; 
+}
+
+.atracciones-container ul {
+    background-color: white;
+    height: 6rem;
+    font-size: 1.1rem;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.atracciones-container div {
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    background-color: #dc4791;
+    width: 58%;
+    margin: 1rem auto;
+}
+
 /* CATEGORIAS */
 
 .categorias-main {
@@ -104,7 +131,7 @@ div {
     flex-wrap: wrap;
     background-size: cover;
     margin: 20px auto;
-    height: 400px; 
+    height: 22rem; 
     width: 100%;
 }
 
@@ -127,8 +154,6 @@ div {
     text-align: center;
 } 
 
-
-
 /* INSCRIPCIONES Y CONTACTOS */
 
 .ins,
@@ -136,7 +161,7 @@ div {
     display: flex;
     justify-content: center;
     background-color: whitesmoke;
-    height: 100px; 
+    height: 5rem; 
     width: 75%;
     text-align: center;
 }
@@ -155,7 +180,7 @@ div {
     top: 4%;
     left: 5%;
     width: 40%;
-    font-size: 1.4em;
+    font-size: 1.4rem;
     opacity: 1;
     transition: ease; 
 }
