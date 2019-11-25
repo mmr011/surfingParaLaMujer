@@ -1,7 +1,7 @@
 /* GENERAL */
 
 html {
-    background-image: url('./main-background-4.jpg');
+    background: url('./main-background-4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,7 +10,6 @@ html {
 } 
 
 body {
-    background-color: hsla(210, 68%, 57%, 0.43);
     margin: 0;
     padding: 30px 0; 
     background-repeat: no-repeat;
@@ -60,11 +59,6 @@ div {
     display: inline-block;
     height: 45%;
     right: 49%;
-}
-
-.right-panel{ 
-    display: block;
-    float: right;
 }
 
 /* LOGO OF EVENT */
@@ -183,4 +177,37 @@ div {
     font-size: 1.4rem;
     opacity: 1;
     transition: ease; 
+}
+
+/* MEDIA QUIERIES */
+
+@media only screen and (min-width: 320px) and (max-width: 1366px)  and (orientation: portrait) {
+    .left-panel {
+        position: relative;
+        right: 0px;
+    }
+
+    .stand-in {
+        width: 20rem;
+        position: relative;
+        right: 19%
+    }
+
+    .test {
+        position: relative;
+        right: 17%;
+    }
+
+    .categorias,
+    .inscripciones,
+    .contactos,
+    .atracciones {
+        position: relative;
+        left: -17%;
+        width: 93%
+    }
+
+    .categorias-main div {
+        opacity: 1; 
+    }
 }
