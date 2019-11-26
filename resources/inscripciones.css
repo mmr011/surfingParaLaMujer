@@ -48,3 +48,25 @@ p {
     width: 50%; 
     box-shadow: 5px 3px 5px #404040;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 320px) and (max-width: 1366px) {
+    html {
+        font-size: 14px
+    }
+
+    .section-headers {
+        width: 90%;
+    }
+
+    .test {
+        width: 90%;
+    }
+
+    .test ol {
+        margin: auto;
+        font-size: 1.1rem; 
+        width: 80%;
+    }
+}
