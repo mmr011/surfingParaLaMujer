@@ -68,6 +68,7 @@ div {
     right: 90px;
     display: flex;
     justify-content: center;
+    flex-shrink: 1;
     margin: 0 auto; 
     height: 65%; 
     border-radius: 100%;
@@ -181,7 +182,7 @@ div {
 
 /* MEDIA QUIERIES */
 
-@media only screen and (min-width: 320px) and (max-width: 1366px)  and (orientation: portrait) {
+@media (min-width: 320px) and (max-width: 500px)  and (orientation: portrait) {
     .left-panel {
         position: relative;
         right: 0px;
@@ -190,12 +191,12 @@ div {
     .stand-in {
         width: 20rem;
         position: relative;
-        right: 19%
+        right: 12%
     }
 
     .test {
         position: relative;
-        right: 17%;
+        right: 11%;
     }
 
     .categorias,
@@ -203,8 +204,39 @@ div {
     .contactos,
     .atracciones {
         position: relative;
-        left: -17%;
-        width: 93%
+        left: -19%;
+        width: 22rem;
+    }
+
+    .categorias-main div {
+        opacity: 1; 
+    }
+}
+
+@media (min-width: 510px) and (max-width: 1030px) {
+    .left-panel {
+        position: relative;
+        left: 19%;
+    }
+
+    .stand-in {
+        width: 85%;
+        position: relative;
+        right: 19%
+    }
+
+    .test {
+        position: relative;
+        right: 20%;
+    }
+
+    .categorias,
+    .inscripciones,
+    .contactos,
+    .atracciones {
+        position: relative;
+        left: -1%;
+        width: 90%;
     }
 
     .categorias-main div {
