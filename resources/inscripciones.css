@@ -13,10 +13,24 @@ body {
     background-repeat: no-repeat;
 }
 
+section {
+    height: 75%;
+}
+
 p {
     text-align: center; 
     font-size: 1.4rem;
     padding: 0 5%;
+}
+
+ul {
+    margin: auto;
+}
+
+.inner {
+    background-color: #dc4791;
+    width: 58%;
+    margin: 1rem auto;
 }
 
 .test {
@@ -32,7 +46,7 @@ p {
     font-family: 'Delius Unicase', sans-serif;
 }
 
-.test ol {
+.test ol, ul {
     width: 75%;
     margin: 10% auto;
     font-size: 1.4rem;
@@ -47,6 +61,14 @@ p {
     text-align: center; 
     width: 50%; 
     box-shadow: 5px 3px 5px #404040;
+}
+
+.bottom-element {
+    padding: 0 0 3% 0;
+}
+
+.top-element {
+    padding: 3% 3% 0 3%;
 }
 
 /* MEDIA QUERIES */
@@ -67,6 +89,9 @@ p {
     .test ol {
         margin: auto;
         font-size: 1.1rem; 
+        width: 80%;
+    }
+    .inner {
         width: 80%;
     }
 }
