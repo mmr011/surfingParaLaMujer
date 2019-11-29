@@ -1,5 +1,5 @@
 // ARRAY OF DIVS IN THE HTML FILES
-const divs = ['div1', 'div2', 'div3', 'div4', 'div5', 'div6', 'div7', 'div8', 'div9', 'div0'];
+const divs = ['div1', 'div2', 'div3', 'div4', 'div5', 'div6', 'div7', 'div8', 'div9', 'div0', 'div11'];
 // ARRAY WHERE THE DIVS WILL BE STORED WHEN WE USE [.getElementById()]
 const container = [];
 
