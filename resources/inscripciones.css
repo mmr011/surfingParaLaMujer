@@ -1,5 +1,5 @@
 html {
-    background-image: url('./main-background-2.jpg');
+    background-image: url('./images/main-background-4.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -21,6 +21,7 @@ p {
 
 .test {
     background-color: whitesmoke; 
+    opacity: .75;
     width: 50%;
     padding: inherit;
     margin: 25px auto; 

@@ -1,7 +1,7 @@
 /* GENERAL */
 
 html {
-    background: url('./main-background-4.jpg');
+    background: url('./images/main-background.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -95,7 +95,7 @@ div {
 /* ATRACCIONES */
 
 .atracciones-container {
-    background-image: url(./musica-comida.jpg);
+    background-image: url(./images/atracciones.jpg);
     height: 23rem; 
 }
 
@@ -131,11 +131,11 @@ div {
 }
 
 .surf {
-    background-image: url('./surfer-open.jpg');
+    background-image: url('./images/surfer-open.jpg');
 }
 
 .boogie {
-    background-image: url('./boogie-open.jpg');
+    background-image: url('./images/boogie-open.jpg');
 }
 
 .categorias-main div {
