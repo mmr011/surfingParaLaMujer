@@ -92,6 +92,14 @@ div {
     margin: 10px; 
 }
 
+/* SPONSOR LOGOS */
+
+.enactus {
+    height: 55%;
+    width: 42%;
+    cursor: pointer;
+}
+
 /* ATRACCIONES */
 
 .atracciones-container {
