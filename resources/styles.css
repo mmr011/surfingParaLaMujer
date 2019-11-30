@@ -36,6 +36,11 @@ div {
     text-align: center;  
 }
 
+a {
+    height: 59%;
+    width: 40%;
+}
+
 .categorias,
 .inscripciones,
 .contactos,
@@ -172,6 +177,8 @@ div {
 .ath-movil {
     display: inline-block;
     position: relative;
+    font-weight: bold;
+    font-size: 2rem;
     right: 7%;
     top:32%; 
     height: 40px;
