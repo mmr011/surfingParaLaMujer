@@ -6,7 +6,7 @@ html {
     background-attachment: fixed;
     background-size: cover;
     font-size: 18px;
-    font-family: 'Gaegu', sans-serif;
+    font-family: 'Merienda', sans-serif;
 } 
 
 body {
@@ -16,7 +16,7 @@ body {
 }
 
 h1 {
-    font-family: 'Delius Unicase', sans-serif;
+    font-family: 'Kalam', sans-serif;
     font-weight: bold; 
     font-size: 2em; 
 }
@@ -174,9 +174,18 @@ a {
     text-align: center;
 }
 
+.ins-button {
+    background-color: white;
+    cursor: pointer;
+    position: relative;
+    left:23%;
+    padding: 3%;
+    font-size: 3rem;
+    border-radius: 10px;
+}
+
 .ath-movil {
     display: inline-block;
-    position: relative;
     font-weight: bold;
     font-size: 2rem;
     right: 7%;
@@ -206,12 +215,12 @@ a {
     .stand-in {
         width: 20rem;
         position: relative;
-        right: 12%
+        right: 9%
     }
 
-    .test {
+    .info-and-sponsors {
         position: relative;
-        right: 11%;
+        right: 9%;
     }
 
     .categorias,
@@ -219,12 +228,16 @@ a {
     .contactos,
     .atracciones {
         position: relative;
-        left: -19%;
+        left: -13%;
         width: 22rem;
     }
 
     .categorias-main div {
         opacity: 1; 
+    }
+
+    .ins-button {
+        left: 1%;
     }
 }
 
@@ -240,7 +253,7 @@ a {
         right: 19%
     }
 
-    .test {
+    .info-and-sponsors {
         position: relative;
         right: 20%;
     }
@@ -256,5 +269,9 @@ a {
 
     .categorias-main div {
         opacity: 1; 
+    }
+
+    .ins-button {
+        left: 1%;
     }
 }
