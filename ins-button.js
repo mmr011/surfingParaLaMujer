@@ -1,14 +1,11 @@
 const button = document.getElementById('ins');
 
-const compress = event => {
-    event.target.style.padding = '2%';
-};
+// HANDLER FOR WHEN BUTTON IS PRESSED
+const darkenBackground = () => {
+    button.style.backgroundColor = '#B89323';
 
-const decompress = event => {
-    event.target.style.padding = '';
-};
-
-const eventAssignment = a => {
-    a.onmousedown = compress;
-    a.onmouseup = decompress;
 }
+
+
+// EVENT FOR THE USER INTERACTIONS 
+button.onmousedown = darkenBackground;
