@@ -189,26 +189,7 @@ a:link {
     border-radius: 10px;
     color: black;
     box-shadow: 5px 3px 5px #404040;
-}
-
-.ath-movil {
-    display: inline-block;
-    font-weight: bold;
-    font-size: 2rem;
-    right: 7%;
-    top:32%; 
-    height: 40px;
-    opacity: 1; 
-}
-
-.ath-num {
-    position: relative;
-    top: 4%;
-    left: 5%;
-    width: 40%;
-    font-size: 1.4rem;
-    opacity: 1;
-    transition: ease; 
+    
 }
 
 /* MEDIA QUIERIES */
@@ -279,6 +260,6 @@ a:link {
     }
 
     .ins-button {
-        left: 1%;
+        left: 20%;
     }
 }
