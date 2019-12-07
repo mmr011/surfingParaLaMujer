@@ -86,13 +86,13 @@ a {
     right: 90px;
     display: flex;
     justify-content: center;
-    background-color: white;
+    background-color: #D3D3D3;
     width: 55%;
     box-shadow: 10px 5px 5px #000000;
 }
 
 .sponsors {
-    background-color: white;
+    background-color: #D3D3D3;
     height: 15%;
     width: 15%;
     margin: 10px; 
@@ -114,7 +114,7 @@ a {
 }
 
 .atracciones-container ul {
-    background-color: white;
+    background-color: #D3D3D3;
     height: 6rem;
     padding: 2% 1% 2% 6%;
     font-size: 1.1rem;
@@ -154,7 +154,7 @@ a {
 }
 
 .categorias-main div {
-    background-color: white;   
+    background-color: #D3D3D3;   
     border-radius: 5%;
     height: 30%;
     width : 30%;
@@ -170,7 +170,7 @@ a {
 .con {
     display: flex;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: #D3D3D3;
     height: 5rem; 
     width: 75%;
     text-align: center;
