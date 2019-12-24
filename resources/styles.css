@@ -64,7 +64,7 @@ a {
     position: fixed; 
     display: inline-block;
     height: 45%;
-    right: 49%;
+    right: 45%;
 }
 
 /* LOGO OF EVENT */
@@ -76,7 +76,7 @@ a {
     justify-content: center;
     flex-shrink: 1;
     margin: 0 auto; 
-    height: 65%; 
+    width: 90%; 
     border-radius: 100%;
     box-shadow: 10px 3px 5px #000000;
 }
