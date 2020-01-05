@@ -45,7 +45,8 @@ a {
 .categorias,
 .inscripciones,
 .contactos,
-.atracciones {
+.atracciones,
+.premios {
     position: relative;
     width:50%;
     left: 43%; 
@@ -57,6 +58,16 @@ a {
     background-color: #9147dc;
     text-align: center; 
     width: 100%; 
+    box-shadow: 5px 3px 5px #000000;
+}
+
+.sub-headers {
+    font-family: 'Kalam', sans-serif;
+    display: block; 
+    margin: 50px auto;
+    background-color: #dcdc47;
+    width: 66%;
+    text-align: center;
     box-shadow: 5px 3px 5px #000000;
 }
 
@@ -164,6 +175,42 @@ a {
     text-align: center;
 } 
 
+/* PREMIOS */
+
+.prize-container {
+    width: 100%;
+    height: 14rem;
+}
+
+/* .test-premios {
+    background-color: #D3D3D3;
+    width: 32%;
+    height: 92%;
+} */
+
+.first-place {
+    background-color: #C9B037;
+    width: 32%;
+    height: 92%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px #000000;
+}
+
+.second-place {
+    background-color: #B4B4B4;
+    width: 32%;
+    height: 92%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px #000000;
+}
+
+.third-palce {
+    background-color: #AD8A56;
+    width: 32%;
+    height: 92%;
+    border-radius: 10px;
+    box-shadow: 5px 3px 5px #000000;
+}
 /* INSCRIPCIONES Y CONTACTOS */
 
 .ins,
