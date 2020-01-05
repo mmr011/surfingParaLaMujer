@@ -42,6 +42,12 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-align: center; 
+    font-size: 1.4rem;
+    padding: 0 5%;
+}
+
 .categorias,
 .inscripciones,
 .contactos,
@@ -218,7 +224,7 @@ a {
     display: flex;
     justify-content: center;
     background-color: #D3D3D3;
-    height: 5rem; 
+    height: 6rem; 
     width: 75%;
     text-align: center;
 }
@@ -234,6 +240,17 @@ a {
     color: black;
     box-shadow: 5px 3px 5px #000000;
     
+}
+
+.test {
+    background-color: #D3D3D3; 
+    width: 95%;
+    padding: inherit;
+    margin: 25px auto; 
+}
+
+.test div{
+    width: 99%;
 }
 
 /* MEDIA QUIERIES */
