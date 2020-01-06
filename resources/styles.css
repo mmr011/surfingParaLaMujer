@@ -209,25 +209,25 @@ p {
     text-align: center;
 }
 
-.isn-container {
+.ins-container {
     background-color: #D3D3D3; 
     width: 100%;
     padding: inherit;
     margin: 0px auto; 
 }
 
-.isn-container div{
+.ins-container div{
     width: 99%;
 }
 
-.isn-container ol, ul {
+.ins-container ol, ul {
     width: 75%;
     margin: 10% auto;
     font-size: 1.4rem;
     margin-left: 7%;
 }
 
-.isn-container h2 {
+.ins-container h2 {
     text-align: center; 
     font-family: 'Kalam', sans-serif;
 }
@@ -239,6 +239,10 @@ p {
         padding: 30px;
     }
     
+    article {
+        width: 100%;
+    }
+
     .left-panel {
         position: relative;
         right: 0px;
@@ -258,7 +262,8 @@ p {
     .categorias,
     .inscripciones,
     .contactos,
-    .atracciones {
+    .atracciones,
+    .premios {
         position: relative;
         left: -13%;
         width: 22rem;
@@ -269,7 +274,7 @@ p {
     }
 
     .ins-container {
-        width: 20rem;
+        width: 100%;
     }
 }
 
@@ -297,7 +302,8 @@ p {
     .categorias,
     .inscripciones,
     .contactos,
-    .atracciones {
+    .atracciones,
+    .premios {
         position: relative;
         left: -1%;
         width: 90%;
