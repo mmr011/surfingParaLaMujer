@@ -109,10 +109,13 @@ p {
 }
 
 .sponsors {
+    position: relative;
+    left: 19%;
     background-color: #D3D3D3;
     height: 15%;
-    width: 15%;
-    margin: 10px; 
+    width: 29%;
+    margin: 10px;
+    box-shadow: 10px 5px 5px #000000;
 }
 
 /* SPONSOR LOGOS */
@@ -132,7 +135,6 @@ p {
 
 .atracciones-container ul {
     background-color: #D3D3D3;
-    height: 6rem;
     padding: 2% 1% 2% 6%;
     font-size: 1.1rem;
     width: 15rem;
@@ -243,6 +245,10 @@ p {
         width: 100%;
     }
 
+    p{
+        font-size: 1.2rem ;
+    }
+
     .left-panel {
         position: relative;
         right: 0px;
@@ -275,6 +281,12 @@ p {
 
     .ins-container {
         width: 100%;
+    }
+    
+    .sponsors {
+        position: relative;
+        left: 13%;
+        width: 50%;
     }
 }
 
@@ -313,4 +325,7 @@ p {
         opacity: 1; 
     }
 
+    .sponsors {
+        left: 15%;
+    }
 }
