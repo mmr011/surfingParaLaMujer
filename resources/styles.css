@@ -79,29 +79,33 @@ p {
 }
 
 .translate-to-english {
+    text-align: center;
+    text-align: center;
     text-decoration: none; 
     background-color: #dcdc47;
     position: absolute;
     bottom: -105%;
     right: 94%;
-    width: 15%;
+    width: 13%;
     height: 7%;
     font-size: 0.8rem;
-    font-style: bold; 
     color: black;
+    cursor: pointer;
 }
 
 .translate-to-spanish {
+    text-align: center;
     text-decoration: none; 
+    text-align: center;
     background-color: #dcdc47;
     position: absolute;
     bottom: -105%;
     right: 94%;
-    width: 17%;
+    width: 16%;
     height: 7%;
     font-size: 0.8rem; 
-    font-style: bold;
     color: black;
+    cursor: pointer;
 }
 
 /* LOGO OF EVENT */
@@ -318,8 +322,8 @@ p {
         width: 15%;
         height: 8%;
         font-size: 0.8rem;
-        font-style: bold; 
         color: black;
+        cursor: pointer;
     }
     
     .translate-to-spanish {
@@ -331,8 +335,8 @@ p {
         width: 17%;
         height: 8%;
         font-size: 0.8rem; 
-        font-style: bold;
         color: black;
+        cursor: pointer;
     }
 }
 
@@ -379,13 +383,27 @@ p {
         text-decoration: none; 
         background-color: #dcdc47;
         position: absolute;
-        bottom: -105%;
-        right: 94%;
+        top: -2%;
+        left: -36%;
         width: 15%;
-        height: 7%;
-        font-size: 0.8rem;
-        font-style: bold; 
+        height: 4%;
+        font-size: 0.8rem; 
         color: black;
+        cursor: pointer;
     }
+    
+    .translate-to-spanish {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        left: -36%;
+        width: 11%;
+        height: 8%;
+        font-size: 0.8rem;
+        color: black;
+        cursor: pointer;
+    }
+    
     
 }
