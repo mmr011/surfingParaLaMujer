@@ -36,12 +36,6 @@ div {
     text-align: center;  
 }
 
-a {
-    height: 59%;
-    width: 40%;
-    text-decoration: none;
-}
-
 p {
     text-align: center; 
     font-size: 1.4rem;
@@ -82,6 +76,32 @@ p {
     display: inline-block;
     height: 45%;
     right: 45%;
+}
+
+.translate-to-english {
+    text-decoration: none; 
+    background-color: #dcdc47;
+    position: absolute;
+    bottom: -105%;
+    right: 94%;
+    width: 15%;
+    height: 7%;
+    font-size: 0.8rem;
+    font-style: bold; 
+    color: black;
+}
+
+.translate-to-spanish {
+    text-decoration: none; 
+    background-color: #dcdc47;
+    position: absolute;
+    bottom: -105%;
+    right: 94%;
+    width: 17%;
+    height: 7%;
+    font-size: 0.8rem; 
+    font-style: bold;
+    color: black;
 }
 
 /* LOGO OF EVENT */
@@ -288,6 +308,32 @@ p {
         left: 13%;
         width: 50%;
     }
+
+    .translate-to-english {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        right: 109%;
+        width: 15%;
+        height: 8%;
+        font-size: 0.8rem;
+        font-style: bold; 
+        color: black;
+    }
+    
+    .translate-to-spanish {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        right: 109%;
+        width: 17%;
+        height: 8%;
+        font-size: 0.8rem; 
+        font-style: bold;
+        color: black;
+    }
 }
 
 @media (min-width: 510px) and (max-width: 1030px) {
@@ -328,4 +374,18 @@ p {
     .sponsors {
         left: 15%;
     }
+
+    .translate-to-english {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        bottom: -105%;
+        right: 94%;
+        width: 15%;
+        height: 7%;
+        font-size: 0.8rem;
+        font-style: bold; 
+        color: black;
+    }
+    
 }
