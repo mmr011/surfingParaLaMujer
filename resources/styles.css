@@ -85,10 +85,10 @@ p {
     background-color: #dcdc47;
     position: absolute;
     bottom: -105%;
-    right: 94%;
-    width: 13%;
+    right: 90%;
+    width: 23%;
     height: 7%;
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     color: black;
     cursor: pointer;
 }
@@ -100,10 +100,10 @@ p {
     background-color: #dcdc47;
     position: absolute;
     bottom: -105%;
-    right: 94%;
-    width: 16%;
+    right: 90%;
+    width: 23%;
     height: 7%;
-    font-size: 0.8rem; 
+    font-size: 0.9rem; 
     color: black;
     cursor: pointer;
 }
@@ -301,6 +301,7 @@ p {
 
     .categorias-main div {
         opacity: 1; 
+        font-size: .7rem;
     }
 
     .ins-container {
@@ -319,7 +320,7 @@ p {
         position: absolute;
         top: -2%;
         right: 109%;
-        width: 15%;
+        width: 18%;
         height: 8%;
         font-size: 0.8rem;
         color: black;
@@ -385,7 +386,7 @@ p {
         position: absolute;
         top: -2%;
         left: -36%;
-        width: 15%;
+        width: 22%;
         height: 4%;
         font-size: 0.8rem; 
         color: black;
@@ -398,8 +399,8 @@ p {
         position: absolute;
         top: -2%;
         left: -36%;
-        width: 11%;
-        height: 8%;
+        width: 25%;
+        height: 4%;
         font-size: 0.8rem;
         color: black;
         cursor: pointer;
