@@ -1,0 +1,410 @@
+/* GENERAL */
+
+html {
+    background: url('./images/main-background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 18px;
+    font-family: 'Merienda', sans-serif;
+} 
+
+body {
+    margin: 0;
+    padding: 30px 0; 
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-family: 'Kalam', sans-serif;
+    font-weight: bold; 
+    font-size: 2em; 
+}
+
+section {
+    margin: auto 80px; 
+}
+
+article {
+    margin: auto; 
+}
+
+div {
+    width: 11rem;
+    margin: 20px auto; 
+    display: inline-block;
+    text-align: center;  
+}
+
+p {
+    text-align: center; 
+    font-size: 1.4rem;
+    padding: 0 5%;
+}
+
+.categorias,
+.inscripciones,
+.contactos,
+.atracciones,
+.premios {
+    position: relative;
+    width:50%;
+    left: 43%; 
+}
+
+.section-headers {
+    display: block; 
+    margin: 50px auto; 
+    background-color: #9147dc;
+    text-align: center; 
+    width: 100%; 
+    box-shadow: 5px 3px 5px #000000;
+}
+
+.sub-headers {
+    font-family: 'Kalam', sans-serif;
+    display: block; 
+    margin: 50px auto;
+    background-color: #dcdc47;
+    width: 66%;
+    text-align: center;
+    box-shadow: 5px 3px 5px #000000;
+}
+
+.left-panel {
+    position: fixed; 
+    display: inline-block;
+    height: 45%;
+    right: 45%;
+}
+
+.translate-to-english {
+    text-align: center;
+    text-align: center;
+    text-decoration: none; 
+    background-color: #dcdc47;
+    position: absolute;
+    bottom: -105%;
+    right: 90%;
+    width: 23%;
+    height: 7%;
+    font-size: 0.9rem;
+    color: black;
+    cursor: pointer;
+}
+
+.translate-to-spanish {
+    text-align: center;
+    text-decoration: none; 
+    text-align: center;
+    background-color: #dcdc47;
+    position: absolute;
+    bottom: -105%;
+    right: 90%;
+    width: 23%;
+    height: 7%;
+    font-size: 0.9rem; 
+    color: black;
+    cursor: pointer;
+}
+
+/* LOGO OF EVENT */
+
+.stand-in {
+    position: relative;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+    margin: 0 auto; 
+    width: 90%; 
+    border-radius: 100%;
+    box-shadow: 10px 3px 5px #000000;
+}
+
+.info-and-sponsors { 
+    position: relative;
+    right: 90px;
+    display: flex;
+    justify-content: center;
+    background-color: #D3D3D3;
+    width: 55%;
+    box-shadow: 10px 5px 5px #000000;
+}
+
+.sponsors {
+    position: relative;
+    left: 19%;
+    background-color: #D3D3D3;
+    height: 15%;
+    width: 29%;
+    margin: 10px;
+    box-shadow: 10px 5px 5px #000000;
+}
+
+/* SPONSOR LOGOS */
+
+.enactus {
+    height: 55%;
+    width: 42%;
+    cursor: pointer;
+}
+
+/* ATRACCIONES */
+
+.atracciones-container {
+    background-image: url(./images/atracciones.jpg);
+    height: 23rem; 
+}
+
+.atracciones-container ul {
+    background-color: #D3D3D3;
+    padding: 2% 1% 2% 6%;
+    font-size: 1.1rem;
+    width: 15rem;
+    margin: 0 auto;
+}
+
+.atracciones-container div {
+    width: 100%;
+    height: 100%;
+}
+
+.inner {
+    background-color: #dc4791;
+    width: 58%;
+    margin: 1rem auto;
+}
+
+/* CATEGORIAS */
+
+.categorias-main {
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    margin: 20px auto;
+    height: 22rem; 
+    width: 100%;
+}
+
+.surf {
+    background-image: url('./images/surfer-open.jpg');
+}
+
+.boogie {
+    background-image: url('./images/boogie-open.jpg');
+}
+
+.categorias-main div {
+    background-color: #D3D3D3;   
+    border-radius: 5%;
+    height: 30%;
+    width : 30%;
+    opacity: .5;
+    transition-duration: 450ms;
+    transition-property: opacity;
+    text-align: center;
+} 
+
+/* PREMIOS */
+
+.prize-container {
+    background-color: khaki;
+    width: 100%;
+}
+
+.prize-container div {
+    width: 100%;
+}
+
+.prize-container ul {
+    width: 75%;
+    margin: 0 0 0 7%;
+}
+
+/* INSCRIPCIONES Y CONTACTOS */
+
+.ins,
+.con {
+    display: flex;
+    justify-content: center;
+    background-color: #D3D3D3;
+    height: 6rem; 
+    width: 75%;
+    text-align: center;
+}
+
+.ins-container {
+    background-color: #D3D3D3; 
+    width: 100%;
+    padding: inherit;
+    margin: 0px auto; 
+}
+
+.ins-container div{
+    width: 99%;
+}
+
+.ins-container ol, ul {
+    width: 75%;
+    margin: 10% auto;
+    font-size: 1.4rem;
+    margin-left: 7%;
+}
+
+.ins-container h2 {
+    text-align: center; 
+    font-family: 'Kalam', sans-serif;
+}
+
+/* MEDIA QUIERIES */
+
+@media (min-width: 320px) and (max-width: 500px)  and (orientation: portrait) {
+    body {
+        padding: 30px;
+    }
+    
+    article {
+        width: 100%;
+    }
+
+    p{
+        font-size: 1.2rem ;
+    }
+
+    .left-panel {
+        position: relative;
+        right: 0px;
+    }
+
+    .stand-in {
+        width: 20rem;
+        position: relative;
+        right: 9%
+    }
+
+    .info-and-sponsors {
+        position: relative;
+        right: 9%;
+    }
+
+    .categorias,
+    .inscripciones,
+    .contactos,
+    .atracciones,
+    .premios {
+        position: relative;
+        left: -13%;
+        width: 22rem;
+    }
+
+    .categorias-main div {
+        opacity: 1; 
+        font-size: .7rem;
+    }
+
+    .ins-container {
+        width: 100%;
+    }
+    
+    .sponsors {
+        position: relative;
+        left: 13%;
+        width: 50%;
+    }
+
+    .translate-to-english {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        right: 109%;
+        width: 18%;
+        height: 8%;
+        font-size: 0.8rem;
+        color: black;
+        cursor: pointer;
+    }
+    
+    .translate-to-spanish {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        right: 109%;
+        width: 17%;
+        height: 8%;
+        font-size: 0.8rem; 
+        color: black;
+        cursor: pointer;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 1030px) {
+    body {
+        padding: 30px;
+    }
+
+    .left-panel {
+        position: relative;
+        left: 19%;
+    }
+
+    .stand-in {
+        width: 85%;
+        position: relative;
+        right: 19%
+    }
+
+    .info-and-sponsors {
+        position: relative;
+        right: 20%;
+    }
+
+    .categorias,
+    .inscripciones,
+    .contactos,
+    .atracciones,
+    .premios {
+        position: relative;
+        left: -1%;
+        width: 90%;
+    }
+
+    .categorias-main div {
+        opacity: 1; 
+    }
+
+    .sponsors {
+        left: 15%;
+    }
+
+    .translate-to-english {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        left: -36%;
+        width: 22%;
+        height: 4%;
+        font-size: 0.8rem; 
+        color: black;
+        cursor: pointer;
+    }
+    
+    .translate-to-spanish {
+        text-decoration: none; 
+        background-color: #dcdc47;
+        position: absolute;
+        top: -2%;
+        left: -36%;
+        width: 25%;
+        height: 4%;
+        font-size: 0.8rem;
+        color: black;
+        cursor: pointer;
+    }
+    
+    
+}
